@@ -1,0 +1,19 @@
+.container {
+    position: absolute;
+}
+
+.image{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    animation: move 15s ease-in-out infinite;
+}
+
+@keyframes move {
+    1% {transform: translateX(0);}
+    25% {transform: translateX(400px);}
+    50% {transform: translateY(100px);}
+    75% {transform: translateX(0px);}
+    100% {transform: translateY(0px);}
+
+}
